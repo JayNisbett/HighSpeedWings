@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A658E611EE23B23004CFB47 /* track.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5A658E601EE23B23004CFB47 /* track.wav */; };
+		AD2780A91E5C66A000178F16 /* bird_0_0.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780941E5C66A000178F16 /* bird_0_0.png */; };
+		AD2780AA1E5C66A000178F16 /* bird_0_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780951E5C66A000178F16 /* bird_0_1.png */; };
+		AD2780AB1E5C66A000178F16 /* bird_0_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780961E5C66A000178F16 /* bird_0_2.png */; };
+		AD2780AC1E5C66A000178F16 /* bird_1_0.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780971E5C66A000178F16 /* bird_1_0.png */; };
+		AD2780AD1E5C66A000178F16 /* bird_1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780981E5C66A000178F16 /* bird_1_1.png */; };
+		AD2780AE1E5C66A000178F16 /* bird_1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780991E5C66A000178F16 /* bird_1_2.png */; };
+		AD2780AF1E5C66A000178F16 /* bird_2_0.png in Resources */ = {isa = PBXBuildFile; fileRef = AD27809A1E5C66A000178F16 /* bird_2_0.png */; };
+		AD2780B01E5C66A000178F16 /* bird_2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD27809B1E5C66A000178F16 /* bird_2_1.png */; };
+		AD2780B11E5C66A000178F16 /* bird_2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD27809C1E5C66A000178F16 /* bird_2_2.png */; };
+		AD2780B21E5C66A000178F16 /* bird_3_0.png in Resources */ = {isa = PBXBuildFile; fileRef = AD27809D1E5C66A000178F16 /* bird_3_0.png */; };
+		AD2780B31E5C66A000178F16 /* bird_3_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD27809E1E5C66A000178F16 /* bird_3_1.png */; };
+		AD2780B41E5C66A000178F16 /* bird_3_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD27809F1E5C66A000178F16 /* bird_3_2.png */; };
+		AD2780B51E5C66A000178F16 /* bird_4_0.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780A01E5C66A000178F16 /* bird_4_0.png */; };
+		AD2780B61E5C66A000178F16 /* bird_4_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780A11E5C66A000178F16 /* bird_4_1.png */; };
+		AD2780B71E5C66A000178F16 /* bird_4_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780A21E5C66A000178F16 /* bird_4_2.png */; };
+		AD2780B81E5C66A000178F16 /* bird_5_0.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780A31E5C66A000178F16 /* bird_5_0.png */; };
+		AD2780B91E5C66A000178F16 /* bird_5_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780A41E5C66A000178F16 /* bird_5_1.png */; };
+		AD2780BA1E5C66A000178F16 /* bird_5_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780A51E5C66A000178F16 /* bird_5_2.png */; };
+		AD2780BB1E5C66A000178F16 /* bird_6_0.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780A61E5C66A000178F16 /* bird_6_0.png */; };
+		AD2780BC1E5C66A000178F16 /* bird_6_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780A71E5C66A000178F16 /* bird_6_1.png */; };
+		AD2780BD1E5C66A000178F16 /* bird_6_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780A81E5C66A000178F16 /* bird_6_2.png */; };
+		AD2780BF1E5CE49100178F16 /* Loading.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2780BE1E5CE49000178F16 /* Loading.png */; };
+		AD5971F61E1EBD6F00EF3170 /* AdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5971F51E1EBD6F00EF3170 /* AdManager.m */; };
+		AD5971F81E1EBDBD00EF3170 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5971F71E1EBDBD00EF3170 /* GoogleMobileAds.framework */; };
+		AD5971FB1E1EC63200EF3170 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = AD5971FA1E1EC63200EF3170 /* play_button.png */; };
+		AD9308871E587E1E003C6C78 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9308831E587E1E003C6C78 /* background.png */; };
+		AD93088A1E587E1E003C6C78 /* pipe.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9308861E587E1E003C6C78 /* pipe.png */; };
+		AD93088C1E587EA3003C6C78 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = AD93088B1E587EA3003C6C78 /* ground.png */; };
+		AD9A1F381DF87C9C00032434 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = AD9A1F371DF87C9C00032434 /* hit.wav */; };
+		AD9A1F3D1DF87D4400032434 /* point.wav in Resources */ = {isa = PBXBuildFile; fileRef = AD9A1F3A1DF87D4400032434 /* point.wav */; };
+		AD9A1F3E1DF87D4400032434 /* wing.wav in Resources */ = {isa = PBXBuildFile; fileRef = AD9A1F3B1DF87D4400032434 /* wing.wav */; };
+		ADDDB8FC1DF82CDA00685AE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB8FB1DF82CDA00685AE9 /* main.m */; };
+		ADDDB8FF1DF82CDA00685AE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB8FE1DF82CDA00685AE9 /* AppDelegate.m */; };
+		ADDDB9061DF82CDA00685AE9 /* GameScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB9051DF82CDA00685AE9 /* GameScene.mm */; };
+		ADDDB9091DF82CDA00685AE9 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB9081DF82CDA00685AE9 /* GameViewController.mm */; };
+		ADDDB90C1DF82CDA00685AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB90A1DF82CDA00685AE9 /* Main.storyboard */; };
+		ADDDB90E1DF82CDA00685AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB90D1DF82CDA00685AE9 /* Assets.xcassets */; };
+		ADDDB9111DF82CDA00685AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB90F1DF82CDA00685AE9 /* LaunchScreen.storyboard */; };
+		ADDDB9391DF83F5A00685AE9 /* Bird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB9191DF83F5A00685AE9 /* Bird.cpp */; };
+		ADDDB93A1DF83F5A00685AE9 /* Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB91B1DF83F5A00685AE9 /* Common.cpp */; };
+		ADDDB93B1DF83F5A00685AE9 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB91D1DF83F5A00685AE9 /* Game.cpp */; };
+		ADDDB93C1DF83F5A00685AE9 /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB91F1DF83F5A00685AE9 /* Object.cpp */; };
+		ADDDB93D1DF83F5A00685AE9 /* Pipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB9211DF83F5A00685AE9 /* Pipe.cpp */; };
+		ADDDB9431DF83F5A00685AE9 /* number_0.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB92C1DF83F5A00685AE9 /* number_0.png */; };
+		ADDDB9441DF83F5A00685AE9 /* number_1.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB92D1DF83F5A00685AE9 /* number_1.png */; };
+		ADDDB9451DF83F5A00685AE9 /* number_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB92E1DF83F5A00685AE9 /* number_2.png */; };
+		ADDDB9461DF83F5A00685AE9 /* number_3.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB92F1DF83F5A00685AE9 /* number_3.png */; };
+		ADDDB9471DF83F5A00685AE9 /* number_4.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB9301DF83F5A00685AE9 /* number_4.png */; };
+		ADDDB9481DF83F5A00685AE9 /* number_5.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB9311DF83F5A00685AE9 /* number_5.png */; };
+		ADDDB9491DF83F5A00685AE9 /* number_6.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB9321DF83F5A00685AE9 /* number_6.png */; };
+		ADDDB94A1DF83F5A00685AE9 /* number_7.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB9331DF83F5A00685AE9 /* number_7.png */; };
+		ADDDB94B1DF83F5A00685AE9 /* number_8.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB9341DF83F5A00685AE9 /* number_8.png */; };
+		ADDDB94C1DF83F5A00685AE9 /* number_9.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDDB9351DF83F5A00685AE9 /* number_9.png */; };
+		ADDDB97B1DF8459C00685AE9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDDB97A1DF8459C00685AE9 /* QuartzCore.framework */; };
+		ADDDB97D1DF845A800685AE9 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDDB97C1DF845A800685AE9 /* SpriteKit.framework */; };
+		ADDDB9801DF8469000685AE9 /* BaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB97F1DF8469000685AE9 /* BaseScene.m */; };
+		AFF79B817CE7839117A8A1CD /* libPods-HighSpeedWings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D86E8E2769C6EF5A4F429C /* libPods-HighSpeedWings.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47881DBF9448FF29940FB7AE /* Pods-HighSpeedWings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighSpeedWings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HighSpeedWings/Pods-HighSpeedWings.debug.xcconfig"; sourceTree = "<group>"; };
+		5013530DCA97F08251FD9D0D /* Pods-HighSpeedWings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighSpeedWings.release.xcconfig"; path = "Pods/Target Support Files/Pods-HighSpeedWings/Pods-HighSpeedWings.release.xcconfig"; sourceTree = "<group>"; };
+		5A658E601EE23B23004CFB47 /* track.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = track.wav; path = ../../../HighSpeedWings/FlappyBird/Sounds/track.wav; sourceTree = "<group>"; };
+		AD2780941E5C66A000178F16 /* bird_0_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_0_0.png; sourceTree = "<group>"; };
+		AD2780951E5C66A000178F16 /* bird_0_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_0_1.png; sourceTree = "<group>"; };
+		AD2780961E5C66A000178F16 /* bird_0_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_0_2.png; sourceTree = "<group>"; };
+		AD2780971E5C66A000178F16 /* bird_1_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_1_0.png; sourceTree = "<group>"; };
+		AD2780981E5C66A000178F16 /* bird_1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_1_1.png; sourceTree = "<group>"; };
+		AD2780991E5C66A000178F16 /* bird_1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_1_2.png; sourceTree = "<group>"; };
+		AD27809A1E5C66A000178F16 /* bird_2_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_2_0.png; sourceTree = "<group>"; };
+		AD27809B1E5C66A000178F16 /* bird_2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_2_1.png; sourceTree = "<group>"; };
+		AD27809C1E5C66A000178F16 /* bird_2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_2_2.png; sourceTree = "<group>"; };
+		AD27809D1E5C66A000178F16 /* bird_3_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_3_0.png; sourceTree = "<group>"; };
+		AD27809E1E5C66A000178F16 /* bird_3_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_3_1.png; sourceTree = "<group>"; };
+		AD27809F1E5C66A000178F16 /* bird_3_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_3_2.png; sourceTree = "<group>"; };
+		AD2780A01E5C66A000178F16 /* bird_4_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_4_0.png; sourceTree = "<group>"; };
+		AD2780A11E5C66A000178F16 /* bird_4_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_4_1.png; sourceTree = "<group>"; };
+		AD2780A21E5C66A000178F16 /* bird_4_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_4_2.png; sourceTree = "<group>"; };
+		AD2780A31E5C66A000178F16 /* bird_5_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_5_0.png; sourceTree = "<group>"; };
+		AD2780A41E5C66A000178F16 /* bird_5_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_5_1.png; sourceTree = "<group>"; };
+		AD2780A51E5C66A000178F16 /* bird_5_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_5_2.png; sourceTree = "<group>"; };
+		AD2780A61E5C66A000178F16 /* bird_6_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_6_0.png; sourceTree = "<group>"; };
+		AD2780A71E5C66A000178F16 /* bird_6_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_6_1.png; sourceTree = "<group>"; };
+		AD2780A81E5C66A000178F16 /* bird_6_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_6_2.png; sourceTree = "<group>"; };
+		AD2780BE1E5CE49000178F16 /* Loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Loading.png; sourceTree = "<group>"; };
+		AD5971F41E1EBD6F00EF3170 /* AdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdManager.h; sourceTree = "<group>"; };
+		AD5971F51E1EBD6F00EF3170 /* AdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdManager.m; sourceTree = "<group>"; };
+		AD5971F71E1EBDBD00EF3170 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = FlappyBird/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		AD5971FA1E1EC63200EF3170 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		AD9308831E587E1E003C6C78 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		AD9308861E587E1E003C6C78 /* pipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe.png; sourceTree = "<group>"; };
+		AD93088B1E587EA3003C6C78 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		AD9A1F371DF87C9C00032434 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		AD9A1F3A1DF87D4400032434 /* point.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = point.wav; sourceTree = "<group>"; };
+		AD9A1F3B1DF87D4400032434 /* wing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wing.wav; sourceTree = "<group>"; };
+		ADDDB8F71DF82CDA00685AE9 /* HighSpeedWings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighSpeedWings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDDB8FB1DF82CDA00685AE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADDDB8FD1DF82CDA00685AE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADDDB8FE1DF82CDA00685AE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADDDB9041DF82CDA00685AE9 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		ADDDB9051DF82CDA00685AE9 /* GameScene.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GameScene.mm; sourceTree = "<group>"; };
+		ADDDB9071DF82CDA00685AE9 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		ADDDB9081DF82CDA00685AE9 /* GameViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
+		ADDDB90B1DF82CDA00685AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADDDB90D1DF82CDA00685AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADDDB9101DF82CDA00685AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADDDB9121DF82CDA00685AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDDB9191DF83F5A00685AE9 /* Bird.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bird.cpp; sourceTree = "<group>"; };
+		ADDDB91A1DF83F5A00685AE9 /* Bird.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bird.hpp; sourceTree = "<group>"; };
+		ADDDB91B1DF83F5A00685AE9 /* Common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Common.cpp; sourceTree = "<group>"; };
+		ADDDB91C1DF83F5A00685AE9 /* Common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Common.hpp; sourceTree = "<group>"; };
+		ADDDB91D1DF83F5A00685AE9 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		ADDDB91E1DF83F5A00685AE9 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		ADDDB91F1DF83F5A00685AE9 /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
+		ADDDB9201DF83F5A00685AE9 /* Object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Object.hpp; sourceTree = "<group>"; };
+		ADDDB9211DF83F5A00685AE9 /* Pipe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pipe.cpp; sourceTree = "<group>"; };
+		ADDDB9221DF83F5A00685AE9 /* Pipe.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pipe.hpp; sourceTree = "<group>"; };
+		ADDDB92C1DF83F5A00685AE9 /* number_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_0.png; sourceTree = "<group>"; };
+		ADDDB92D1DF83F5A00685AE9 /* number_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_1.png; sourceTree = "<group>"; };
+		ADDDB92E1DF83F5A00685AE9 /* number_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_2.png; sourceTree = "<group>"; };
+		ADDDB92F1DF83F5A00685AE9 /* number_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_3.png; sourceTree = "<group>"; };
+		ADDDB9301DF83F5A00685AE9 /* number_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_4.png; sourceTree = "<group>"; };
+		ADDDB9311DF83F5A00685AE9 /* number_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_5.png; sourceTree = "<group>"; };
+		ADDDB9321DF83F5A00685AE9 /* number_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_6.png; sourceTree = "<group>"; };
+		ADDDB9331DF83F5A00685AE9 /* number_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_7.png; sourceTree = "<group>"; };
+		ADDDB9341DF83F5A00685AE9 /* number_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_8.png; sourceTree = "<group>"; };
+		ADDDB9351DF83F5A00685AE9 /* number_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_9.png; sourceTree = "<group>"; };
+		ADDDB97A1DF8459C00685AE9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ADDDB97C1DF845A800685AE9 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		ADDDB97E1DF8469000685AE9 /* BaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseScene.h; sourceTree = "<group>"; };
+		ADDDB97F1DF8469000685AE9 /* BaseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseScene.m; sourceTree = "<group>"; };
+		B5D86E8E2769C6EF5A4F429C /* libPods-HighSpeedWings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HighSpeedWings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADDDB8F41DF82CDA00685AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5971F81E1EBDBD00EF3170 /* GoogleMobileAds.framework in Frameworks */,
+				ADDDB97D1DF845A800685AE9 /* SpriteKit.framework in Frameworks */,
+				ADDDB97B1DF8459C00685AE9 /* QuartzCore.framework in Frameworks */,
+				AFF79B817CE7839117A8A1CD /* libPods-HighSpeedWings.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5971F31E1EBD6300EF3170 /* AdManager */ = {
+			isa = PBXGroup;
+			children = (
+				AD5971F41E1EBD6F00EF3170 /* AdManager.h */,
+				AD5971F51E1EBD6F00EF3170 /* AdManager.m */,
+			);
+			name = AdManager;
+			sourceTree = "<group>";
+		};
+		AD5971F91E1EC63200EF3170 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				AD5971FA1E1EC63200EF3170 /* play_button.png */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		AD9308821E587E1E003C6C78 /* Colored Images */ = {
+			isa = PBXGroup;
+			children = (
+				AD9308831E587E1E003C6C78 /* background.png */,
+				AD93088B1E587EA3003C6C78 /* ground.png */,
+				AD9308861E587E1E003C6C78 /* pipe.png */,
+			);
+			path = "Colored Images";
+			sourceTree = "<group>";
+		};
+		AD9A1F2E1DF8771400032434 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5A658E601EE23B23004CFB47 /* track.wav */,
+				AD9A1F371DF87C9C00032434 /* hit.wav */,
+				AD9A1F3A1DF87D4400032434 /* point.wav */,
+				AD9A1F3B1DF87D4400032434 /* wing.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		ADDDB8EE1DF82CDA00685AE9 = {
+			isa = PBXGroup;
+			children = (
+				ADDDB8F91DF82CDA00685AE9 /* FlappyBird */,
+				ADDDB8F81DF82CDA00685AE9 /* Products */,
+				ADDDB9791DF8459C00685AE9 /* Frameworks */,
+				C8DB3F5AB99D1B2CD0791E46 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		ADDDB8F81DF82CDA00685AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADDDB8F71DF82CDA00685AE9 /* HighSpeedWings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADDDB8F91DF82CDA00685AE9 /* FlappyBird */ = {
+			isa = PBXGroup;
+			children = (
+				AD5971F31E1EBD6300EF3170 /* AdManager */,
+				AD9A1F2E1DF8771400032434 /* Sounds */,
+				ADDDB9181DF83F5A00685AE9 /* Game Model */,
+				ADDDB9231DF83F5A00685AE9 /* Images */,
+				ADDDB9811DF850C200685AE9 /* SpriteKit Scenes */,
+				ADDDB9821DF850D900685AE9 /* App Stuff */,
+				ADDDB90A1DF82CDA00685AE9 /* Main.storyboard */,
+				ADDDB90D1DF82CDA00685AE9 /* Assets.xcassets */,
+				ADDDB90F1DF82CDA00685AE9 /* LaunchScreen.storyboard */,
+				ADDDB9121DF82CDA00685AE9 /* Info.plist */,
+				ADDDB8FA1DF82CDA00685AE9 /* Supporting Files */,
+			);
+			path = FlappyBird;
+			sourceTree = "<group>";
+		};
+		ADDDB8FA1DF82CDA00685AE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADDDB8FB1DF82CDA00685AE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADDDB9181DF83F5A00685AE9 /* Game Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADDDB91C1DF83F5A00685AE9 /* Common.hpp */,
+				ADDDB91B1DF83F5A00685AE9 /* Common.cpp */,
+				ADDDB9201DF83F5A00685AE9 /* Object.hpp */,
+				ADDDB91F1DF83F5A00685AE9 /* Object.cpp */,
+				ADDDB91A1DF83F5A00685AE9 /* Bird.hpp */,
+				ADDDB9191DF83F5A00685AE9 /* Bird.cpp */,
+				ADDDB9221DF83F5A00685AE9 /* Pipe.hpp */,
+				ADDDB9211DF83F5A00685AE9 /* Pipe.cpp */,
+				ADDDB91E1DF83F5A00685AE9 /* Game.hpp */,
+				ADDDB91D1DF83F5A00685AE9 /* Game.cpp */,
+			);
+			path = "Game Model";
+			sourceTree = "<group>";
+		};
+		ADDDB9231DF83F5A00685AE9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AD9308821E587E1E003C6C78 /* Colored Images */,
+				AD5971F91E1EC63200EF3170 /* Buttons */,
+				ADDDB9271DF83F5A00685AE9 /* Birds */,
+				ADDDB92B1DF83F5A00685AE9 /* Numbers */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		ADDDB9271DF83F5A00685AE9 /* Birds */ = {
+			isa = PBXGroup;
+			children = (
+				AD2780941E5C66A000178F16 /* bird_0_0.png */,
+				AD2780951E5C66A000178F16 /* bird_0_1.png */,
+				AD2780961E5C66A000178F16 /* bird_0_2.png */,
+				AD2780971E5C66A000178F16 /* bird_1_0.png */,
+				AD2780981E5C66A000178F16 /* bird_1_1.png */,
+				AD2780991E5C66A000178F16 /* bird_1_2.png */,
+				AD27809A1E5C66A000178F16 /* bird_2_0.png */,
+				AD27809B1E5C66A000178F16 /* bird_2_1.png */,
+				AD27809C1E5C66A000178F16 /* bird_2_2.png */,
+				AD27809D1E5C66A000178F16 /* bird_3_0.png */,
+				AD27809E1E5C66A000178F16 /* bird_3_1.png */,
+				AD27809F1E5C66A000178F16 /* bird_3_2.png */,
+				AD2780A01E5C66A000178F16 /* bird_4_0.png */,
+				AD2780A11E5C66A000178F16 /* bird_4_1.png */,
+				AD2780A21E5C66A000178F16 /* bird_4_2.png */,
+				AD2780A31E5C66A000178F16 /* bird_5_0.png */,
+				AD2780A41E5C66A000178F16 /* bird_5_1.png */,
+				AD2780A51E5C66A000178F16 /* bird_5_2.png */,
+				AD2780A61E5C66A000178F16 /* bird_6_0.png */,
+				AD2780A71E5C66A000178F16 /* bird_6_1.png */,
+				AD2780A81E5C66A000178F16 /* bird_6_2.png */,
+			);
+			path = Birds;
+			sourceTree = "<group>";
+		};
+		ADDDB92B1DF83F5A00685AE9 /* Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				ADDDB92C1DF83F5A00685AE9 /* number_0.png */,
+				ADDDB92D1DF83F5A00685AE9 /* number_1.png */,
+				ADDDB92E1DF83F5A00685AE9 /* number_2.png */,
+				ADDDB92F1DF83F5A00685AE9 /* number_3.png */,
+				ADDDB9301DF83F5A00685AE9 /* number_4.png */,
+				ADDDB9311DF83F5A00685AE9 /* number_5.png */,
+				ADDDB9321DF83F5A00685AE9 /* number_6.png */,
+				ADDDB9331DF83F5A00685AE9 /* number_7.png */,
+				ADDDB9341DF83F5A00685AE9 /* number_8.png */,
+				ADDDB9351DF83F5A00685AE9 /* number_9.png */,
+				AD2780BE1E5CE49000178F16 /* Loading.png */,
+			);
+			path = Numbers;
+			sourceTree = "<group>";
+		};
+		ADDDB9791DF8459C00685AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD5971F71E1EBDBD00EF3170 /* GoogleMobileAds.framework */,
+				ADDDB97C1DF845A800685AE9 /* SpriteKit.framework */,
+				ADDDB97A1DF8459C00685AE9 /* QuartzCore.framework */,
+				B5D86E8E2769C6EF5A4F429C /* libPods-HighSpeedWings.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADDDB9811DF850C200685AE9 /* SpriteKit Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				ADDDB97E1DF8469000685AE9 /* BaseScene.h */,
+				ADDDB97F1DF8469000685AE9 /* BaseScene.m */,
+				ADDDB9041DF82CDA00685AE9 /* GameScene.h */,
+				ADDDB9051DF82CDA00685AE9 /* GameScene.mm */,
+			);
+			name = "SpriteKit Scenes";
+			sourceTree = "<group>";
+		};
+		ADDDB9821DF850D900685AE9 /* App Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				ADDDB8FD1DF82CDA00685AE9 /* AppDelegate.h */,
+				ADDDB8FE1DF82CDA00685AE9 /* AppDelegate.m */,
+				ADDDB9071DF82CDA00685AE9 /* GameViewController.h */,
+				ADDDB9081DF82CDA00685AE9 /* GameViewController.mm */,
+			);
+			name = "App Stuff";
+			sourceTree = "<group>";
+		};
+		C8DB3F5AB99D1B2CD0791E46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47881DBF9448FF29940FB7AE /* Pods-HighSpeedWings.debug.xcconfig */,
+				5013530DCA97F08251FD9D0D /* Pods-HighSpeedWings.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADDDB8F61DF82CDA00685AE9 /* HighSpeedWings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDDB9151DF82CDA00685AE9 /* Build configuration list for PBXNativeTarget "HighSpeedWings" */;
+			buildPhases = (
+				1E00A7E8C99E8B163D00D063 /* [CP] Check Pods Manifest.lock */,
+				ADDDB8F31DF82CDA00685AE9 /* Sources */,
+				ADDDB8F41DF82CDA00685AE9 /* Frameworks */,
+				ADDDB8F51DF82CDA00685AE9 /* Resources */,
+				3962774234DD06312A288F8D /* [CP] Embed Pods Frameworks */,
+				86F5339FD1672B973B6DB525 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighSpeedWings;
+			productName = FlappyBird;
+			productReference = ADDDB8F71DF82CDA00685AE9 /* HighSpeedWings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADDDB8EF1DF82CDA00685AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zsergey;
+				TargetAttributes = {
+					ADDDB8F61DF82CDA00685AE9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YBQFVFM43F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ADDDB8F21DF82CDA00685AE9 /* Build configuration list for PBXProject "HighSpeedWings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADDDB8EE1DF82CDA00685AE9;
+			productRefGroup = ADDDB8F81DF82CDA00685AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADDDB8F61DF82CDA00685AE9 /* HighSpeedWings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADDDB8F51DF82CDA00685AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2780AF1E5C66A000178F16 /* bird_2_0.png in Resources */,
+				ADDDB94C1DF83F5A00685AE9 /* number_9.png in Resources */,
+				AD2780BA1E5C66A000178F16 /* bird_5_2.png in Resources */,
+				AD2780B31E5C66A000178F16 /* bird_3_1.png in Resources */,
+				AD2780BB1E5C66A000178F16 /* bird_6_0.png in Resources */,
+				AD93088A1E587E1E003C6C78 /* pipe.png in Resources */,
+				AD2780AA1E5C66A000178F16 /* bird_0_1.png in Resources */,
+				AD5971FB1E1EC63200EF3170 /* play_button.png in Resources */,
+				AD2780B51E5C66A000178F16 /* bird_4_0.png in Resources */,
+				5A658E611EE23B23004CFB47 /* track.wav in Resources */,
+				AD2780AD1E5C66A000178F16 /* bird_1_1.png in Resources */,
+				ADDDB90C1DF82CDA00685AE9 /* Main.storyboard in Resources */,
+				AD2780B01E5C66A000178F16 /* bird_2_1.png in Resources */,
+				AD9A1F381DF87C9C00032434 /* hit.wav in Resources */,
+				AD2780A91E5C66A000178F16 /* bird_0_0.png in Resources */,
+				AD2780AB1E5C66A000178F16 /* bird_0_2.png in Resources */,
+				ADDDB9441DF83F5A00685AE9 /* number_1.png in Resources */,
+				AD9A1F3D1DF87D4400032434 /* point.wav in Resources */,
+				AD2780B11E5C66A000178F16 /* bird_2_2.png in Resources */,
+				AD2780BF1E5CE49100178F16 /* Loading.png in Resources */,
+				AD2780BC1E5C66A000178F16 /* bird_6_1.png in Resources */,
+				AD9A1F3E1DF87D4400032434 /* wing.wav in Resources */,
+				ADDDB9451DF83F5A00685AE9 /* number_2.png in Resources */,
+				AD9308871E587E1E003C6C78 /* background.png in Resources */,
+				AD2780AC1E5C66A000178F16 /* bird_1_0.png in Resources */,
+				AD2780B41E5C66A000178F16 /* bird_3_2.png in Resources */,
+				ADDDB9491DF83F5A00685AE9 /* number_6.png in Resources */,
+				AD2780BD1E5C66A000178F16 /* bird_6_2.png in Resources */,
+				ADDDB90E1DF82CDA00685AE9 /* Assets.xcassets in Resources */,
+				AD93088C1E587EA3003C6C78 /* ground.png in Resources */,
+				ADDDB9111DF82CDA00685AE9 /* LaunchScreen.storyboard in Resources */,
+				AD2780B91E5C66A000178F16 /* bird_5_1.png in Resources */,
+				ADDDB9431DF83F5A00685AE9 /* number_0.png in Resources */,
+				ADDDB9471DF83F5A00685AE9 /* number_4.png in Resources */,
+				ADDDB9461DF83F5A00685AE9 /* number_3.png in Resources */,
+				AD2780B21E5C66A000178F16 /* bird_3_0.png in Resources */,
+				AD2780AE1E5C66A000178F16 /* bird_1_2.png in Resources */,
+				ADDDB94B1DF83F5A00685AE9 /* number_8.png in Resources */,
+				AD2780B71E5C66A000178F16 /* bird_4_2.png in Resources */,
+				ADDDB9481DF83F5A00685AE9 /* number_5.png in Resources */,
+				ADDDB94A1DF83F5A00685AE9 /* number_7.png in Resources */,
+				AD2780B81E5C66A000178F16 /* bird_5_0.png in Resources */,
+				AD2780B61E5C66A000178F16 /* bird_4_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E00A7E8C99E8B163D00D063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3962774234DD06312A288F8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighSpeedWings/Pods-HighSpeedWings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F5339FD1672B973B6DB525 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighSpeedWings/Pods-HighSpeedWings-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADDDB8F31DF82CDA00685AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDDB93D1DF83F5A00685AE9 /* Pipe.cpp in Sources */,
+				ADDDB9091DF82CDA00685AE9 /* GameViewController.mm in Sources */,
+				ADDDB8FF1DF82CDA00685AE9 /* AppDelegate.m in Sources */,
+				ADDDB9801DF8469000685AE9 /* BaseScene.m in Sources */,
+				ADDDB93C1DF83F5A00685AE9 /* Object.cpp in Sources */,
+				ADDDB93A1DF83F5A00685AE9 /* Common.cpp in Sources */,
+				ADDDB9061DF82CDA00685AE9 /* GameScene.mm in Sources */,
+				ADDDB8FC1DF82CDA00685AE9 /* main.m in Sources */,
+				AD5971F61E1EBD6F00EF3170 /* AdManager.m in Sources */,
+				ADDDB9391DF83F5A00685AE9 /* Bird.cpp in Sources */,
+				ADDDB93B1DF83F5A00685AE9 /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADDDB90A1DF82CDA00685AE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADDDB90B1DF82CDA00685AE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADDDB90F1DF82CDA00685AE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADDDB9101DF82CDA00685AE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADDDB9131DF82CDA00685AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADDDB9141DF82CDA00685AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADDDB9161DF82CDA00685AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47881DBF9448FF29940FB7AE /* Pods-HighSpeedWings.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sergey Zapuhlyak (SKF9M477H5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YBQFVFM43F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FlappyBird",
+				);
+				INFOPLIST_FILE = FlappyBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsergey.HighSpeedWings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		ADDDB9171DF82CDA00685AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5013530DCA97F08251FD9D0D /* Pods-HighSpeedWings.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sergey Zapuhlyak (TT52NY322E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YBQFVFM43F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FlappyBird",
+				);
+				INFOPLIST_FILE = FlappyBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsergey.HighSpeedWings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADDDB8F21DF82CDA00685AE9 /* Build configuration list for PBXProject "HighSpeedWings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDDB9131DF82CDA00685AE9 /* Debug */,
+				ADDDB9141DF82CDA00685AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDDB9151DF82CDA00685AE9 /* Build configuration list for PBXNativeTarget "HighSpeedWings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDDB9161DF82CDA00685AE9 /* Debug */,
+				ADDDB9171DF82CDA00685AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADDDB8EF1DF82CDA00685AE9 /* Project object */;
+}
